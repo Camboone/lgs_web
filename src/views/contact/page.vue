@@ -57,7 +57,7 @@ onMounted(() => {
 });
 
 function onOpenModal() {
-  const modal = document.getElementById("my_modal_5");
+  const modal = document.getElementById("my_modal_5") as HTMLDialogElement | null;
   if (modal) {
     modal.showModal();
   }

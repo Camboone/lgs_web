@@ -77,7 +77,7 @@ import { VueDraggableNext } from 'vue-draggable-next'
 const store = homeStore();
 
 function onOpenModal() {
-  const modal = document.getElementById("my_modal_3");
+  const modal = document.getElementById("my_modal_3") as HTMLDialogElement | null;
   if (modal) {
     modal.showModal();
   }
