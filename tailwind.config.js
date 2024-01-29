@@ -7,6 +7,10 @@ export default {
   theme: {
     extend: {},
   },
+  darkMode: "media", // or 'media' or 'class'
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light", "dark", "bumblebee", "cupcake"],
+  },
 }
 
